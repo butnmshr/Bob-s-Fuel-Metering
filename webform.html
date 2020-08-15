@@ -8,18 +8,12 @@ var dt = new Date();
 document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 </script>
 
-<form>
-<name="fuelmetering"/>
-<action=""/>
-<method="post"/>
-</br>
+<form name="fuelmetering" id="fuelmetering" method="post" action="/save"> <!-- his endpoint doesnt exit yet -->
 
-<form id="p1">
 Pump #1</br></br>
 Diesel<input name="01d"/></br>
 Premium<input name="01p"/></br>
 Unleaded<input name="01u"/></br></br>
-</form>
 
 Pump #2</br></br>
 Diesel<input name="02d"/></br>
